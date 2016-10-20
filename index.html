@@ -1,0 +1,200 @@
+
+<!DOCTYPE html> 
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+	<title>Wisconsin Fast Pitch</title> 
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.1/jquery.mobile-1.2.1.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</head> 
+
+	
+<body> 
+
+<!-- Start of first page: #one -->
+<div data-role="page" id="one">
+
+	<div data-role="header">
+		<h1>Create Account</h1>
+	</div><!-- /header -->
+
+	<div data-role="content" >	
+		<h1>Create Account</h1>
+				    	
+	    <div class='row'><input id="txtEmail" class='txt' type="text" value="Email"/></div>
+	    <div class='row'><input id="txtUserName" class='txt' type="text" value="Username"/></div>
+	    <div class='row'><input id="txtPassword" class='txt' type="password" value="Password"/></div>
+	    <div class='row'><input id="txtConfirmPassword" class='txt' type="password" value="Confirm Password"/></div>
+	    <br>
+		<p><a href="#" id="btnCreate" data-role="button">Create Profile</a></p>	
+	</div><!-- /content -->
+</div><!-- /page one -->
+
+
+<!-- Start of second page: #two -->
+<div data-role="page" id="two" data-theme="a">
+
+	<div data-role="header">
+		<h1>Home</h1>
+		<a href="#" style="margin-left: 80%" class="btnLogOut" data-icon="check" data-theme="b">Logout</a>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">	
+		<h2>My Data</h2>
+		<p>My Data</p>	
+		<h3>Show internal pages:</h3>
+		
+		<!--<p><a href="#" id="btnLogOut" class="btnLogOut" data-role="button">LogOut</a></p>-->
+		
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-theme="d">
+		<p style="width: 20%; float: left;"><a href="#two" data-role="button">My Data</a></p>	
+		<p style="width: 20%; float: left;"><a href="#three" data-role="button">Research</a></p>		
+		<p style="width: 20%; float: left;"><a href="#five" data-role="button">Community</a></p>	
+		<p style="width: 20%; float: left;"><a href="#one" data-role="button">Profile</a></p>
+	</div><!-- /footer -->
+</div><!-- /page two -->
+
+
+<!-- Start of second page: #three -->
+<div data-role="page" id="three" data-theme="a">
+
+	<div data-role="header">
+		<a href="#two" data-icon="delete">Home</a>
+		<h1>My Research</h1>
+		<a href="#" class="btnLogOut" data-icon="check" data-theme="b">Logout</a>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">	
+		<h2>Research</h2>
+		
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-theme="d">
+		<p style="width: 20%; float: left;"><a href="#two" data-role="button">My Data</a></p>	
+		<p style="width: 20%; float: left;"><a href="#three" data-role="button">Research</a></p>		
+		<p style="width: 20%; float: left;"><a href="#five" data-role="button">Community</a></p>	
+		<p style="width: 20%; float: left;"><a href="#one" data-role="button">Profile</a></p>
+	</div><!-- /footer -->
+</div><!-- /page three -->
+
+<!-- Start of second page: #four -->
+<div data-role="page" id="four" data-theme="a">
+
+	<div data-role="header">
+		<a href="#two" data-icon="delete">Home</a>
+		<h1>My Today</h1>
+		<a href="#" class="btnLogOut" data-icon="check" data-theme="b">Logout</a>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">	
+		<h2>Today</h2>
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-theme="d">
+		<p style="width: 20%; float: left;"><a href="#two" data-role="button">My Data</a></p>	
+		<p style="width: 20%; float: left;"><a href="#three" data-role="button">Research</a></p>		
+		<p style="width: 20%; float: left;"><a href="#five" data-role="button">Community</a></p>	
+		<p style="width: 20%; float: left;"><a href="#one" data-role="button">Profile</a></p>
+	</div><!-- /footer -->
+</div><!-- /page four -->
+
+<!-- Start of second page: #five -->
+<div data-role="page" id="five" data-theme="a">
+
+	<div data-role="header">
+		<a href="#two" data-icon="delete">Home</a>
+		<h1>My Community</h1>
+		<a href="#" class="btnLogOut" data-icon="check" data-theme="b">Logout</a>
+	</div><!-- /header -->
+
+	<div data-role="content" data-theme="a">	
+		<h2>Community</h2>
+		
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-theme="d">
+		<p style="width: 20%; float: left;"><a href="#two" data-role="button">My Data</a></p>	
+		<p style="width: 20%; float: left;"><a href="#three" data-role="button">Research</a></p>		
+		<p style="width: 20%; float: left;"><a href="#five" data-role="button">Community</a></p>	
+		<p style="width: 20%; float: left;"><a href="#one" data-role="button">Profile</a></p>
+	</div><!-- /footer -->
+</div><!-- /page five -->
+
+<!-- Start of third page: #popup -->
+<div data-role="page" id="seven" data-theme="a">
+
+	<div data-role="header">
+		<h1>Login</h1>	
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<h2>Login</h2>
+		<input class='txt' type="text" value="username"/>
+		<input class='txt' type="text" value="password"/>
+		<br>
+		<p style="width: 55%; float: left;"><a href="#eight" data-role="button">Forgot Password</a></p>	
+		<p style="width: 25%; float: right;"><a href="#" class="btnLogin" data-role="button">Login</a></p>	
+		<br>
+		<p style="width: 55%; float: left;"><a href="#one" class="btnCreateProfile" data-role="button">Create Profile</a></p>	
+	</div><!-- /content -->
+
+</div><!-- /page seven -->
+
+<!-- Start of third page: #popup -->
+<div data-role="page" id="eight" data-theme="a">
+
+	<div data-role="header">
+		<h1>Forgot Password</h1>	
+	</div><!-- /header -->
+
+	<div data-role="content">	
+		<h2>Forgot Password</h2>
+		<input class='txt' type="text" value="email"/>
+		<br>
+		<p><a href="#eight" data-role="button">Forgot Password</a></p>	
+	</div><!-- /content -->
+
+</div><!-- /page seven -->
+
+<!-- Start of first page: #one -->
+<div data-role="page" id="profile">
+
+	<div data-role="header">
+		<a href="#two" data-icon="delete">Home</a>
+		<h1>Multi-page</h1>
+		<a href="#" class="btnLogOut" data-icon="check" data-theme="b">Logout</a>
+	</div><!-- /header -->
+
+	<div data-role="content" >	
+		<h1>Update Profile</h1>
+				    	
+	    <p><input type="text" name="txtName" id="txtName" value="Name"></p>
+	    <div class='row'><input id="txtDOB" class='txt' type="text" value="DOB"/></div>
+	    <div class='row'><input id="txtGender" class='txt' type="text" value="Gender Age"/></div>
+	    <div class='row'><input id="txtProvider" class='txt' type="text" value="Provider"/></div>
+	    <div class='row'><input id="txtEmail" class='txt' type="text" value="Email"/></div>
+	    <div class='row'><input id="txtUserName" class='txt' type="text" value="Username"/></div>
+	    <div class='row'><input id="txtPassword" class='txt' type="password" value="Password"/></div>
+	    <div class='row'><input id="txtConfirmPassword" class='txt' type="password" value="Confirm Password"/></div>
+	    <div class='row'><input id="txtDiagnosis" class='txt' type="text" value="Diagnosis"/></div>
+	    <div class='row'><input id="txtSymptons" class='txt' type="textarea" value="Current Symptons"/></div>
+		<br>
+		<p><a href="#" id="btnCreate" data-role="button">Create Profile</a></p>	
+	</div><!-- /content -->
+	
+	<div data-role="footer" data-theme="d">
+		<p style="width: 20%; float: left;"><a href="#two" data-role="button">My Data</a></p>	
+		<p style="width: 20%; float: left;"><a href="#three" data-role="button">Research</a></p>		
+		<p style="width: 20%; float: left;"><a href="#five" data-role="button">Community</a></p>	
+		<p style="width: 20%; float: left;"><a href="#one" data-role="button">Profile</a></p>
+	</div><!-- /footer -->
+</div><!-- /page one -->
+
+</body>
+</html>
